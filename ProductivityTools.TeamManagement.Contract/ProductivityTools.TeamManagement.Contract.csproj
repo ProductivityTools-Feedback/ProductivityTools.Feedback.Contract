@@ -2,6 +2,21 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageIcon>TeamManagement.png</PackageIcon>
+    <Description>Contract for team management application</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/pwujczyk/ProductivityTools.TeamManagement.Contract</RepositoryUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Feedback\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\Images\TeamManagement.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
