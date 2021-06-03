@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PSTeamFeedback.Contract.Internal
+namespace ProductivityTools.TeamManagement.Contract.Internal
 {
     public class PersonInternalInformation
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PSTeamFeedback.Contract.Feedback
+namespace ProductivityTools.TeamManagement.Contract.Feedback
 {
     public class SaveFeedback
     {
