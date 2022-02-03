@@ -6,7 +6,7 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/pwujczyk/ProductivityTools.TeamManagement.Contract</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <Version>0.0.5</Version>
+    <Version>0.0.6</Version>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Feedback\" />
