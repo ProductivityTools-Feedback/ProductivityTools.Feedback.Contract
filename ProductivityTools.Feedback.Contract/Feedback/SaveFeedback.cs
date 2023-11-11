@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProductivityTools.TeamManagement.Contract.Feedback
+namespace ProductivityTools.Feedback.Contract.Feedback
 {
-    public class Feedback
+    public class SaveFeedback
     {
-        public DateTime Date { get; set; }
+        public List<string> Initials { get; set; }
         public string Value { get; set; }
     }
 }

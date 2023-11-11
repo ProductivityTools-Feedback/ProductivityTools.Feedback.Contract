@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProductivityTools.TeamManagement.Contract.Internal
+namespace ProductivityTools.Feedback.Contract.Feedback
 {
-    public class Internal
+    public class Feedback
     {
         public DateTime Date { get; set; }
         public string Value { get; set; }

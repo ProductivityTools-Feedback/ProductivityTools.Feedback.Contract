@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ProductivityTools.TeamManagement.Contract
+namespace ProductivityTools.Feedback.Contract
 {
     public class Person
     {

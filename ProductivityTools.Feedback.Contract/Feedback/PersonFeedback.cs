@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProductivityTools.TeamManagement.Contract.Internal
+namespace ProductivityTools.Feedback.Contract.Feedback
 {
-    public class PersonInternalInformation
+    public class PersonFeedback
     {
         public string FirstName { get; set; }
 
         public string LastName { get; set; }
 
-        public List<Internal> InternalInformation { get; set; }
+        public List<Feedback> Feedback { get; set; }
     }
 }

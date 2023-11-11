@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProductivityTools.TeamManagement.Contract.Internal
+namespace ProductivityTools.Feedback.Contract.Internal
 {
-    public class SaveInternalInformation
+    public class Internal
     {
-        public List<string> Initials { get; set; }
+        public DateTime Date { get; set; }
         public string Value { get; set; }
     }
 }

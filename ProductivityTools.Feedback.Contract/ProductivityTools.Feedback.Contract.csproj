@@ -1,18 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <PackageIcon>TeamManagement.png</PackageIcon>
+    <PackageIcon>Feedback.png</PackageIcon>
     <Description>Contract for team management application</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryUrl>https://github.com/pwujczyk/ProductivityTools.TeamManagement.Contract</RepositoryUrl>
+    <RepositoryUrl>https://github.com/pwujczyk/ProductivityTools.Feedback.Contract</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <Version>0.0.6</Version>
+    <Version>0.0.5</Version>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Feedback\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Images\TeamManagement.png">
+    <None Include="..\Images\Feedback.png">
       <Pack>True</Pack>
       <PackagePath>
       </PackagePath>
